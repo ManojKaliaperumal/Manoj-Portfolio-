@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component library</title>
-<!-- <link href="styles.css" rel="stylesheet" /> -->
+ <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -19,6 +19,7 @@
     <h1>This is the biggest heading</h1>
     <h2>This is the second biggest heading</h2>
     <p>This is a normal text </p>
+    <p>This paragraph will have a <strong>bold</strong> text</p>
     <small>This is relatively small than every text in here</small>
 
 </body>
@@ -29,22 +30,24 @@
 
 <h2>@container</h2>
 <h3>fluid container</h3>
-<div>This is a fluid container and it will go till the end of the page</div>
+<div class ="container"> This is a fluid container and it will go till the end of the page</div>
 
 <h3>center container</h3>
-<div>This is a centered container and it will go till specific width</div>
+<div class ="container container-center">This is a centered container and it will go till specific width</div>
 
 <hr>
 
 <h2>@Links</h2>
 
-<a href="/">Primary Link</a>
-<a href="/">Secondary link</a>
+<a class ="link link-primary" href="/">Primary Link</a>
+<a class ="link link-secondary" href="/">Secondary link</a>
 
 <hr>
 <h2>@Lists</h2>
+<h3>unordered list</h3>
+<P>This list will not have the bullet</P>
 
-<ul>
+<ul class="list-non-bullet">
     <li>ItemOne</li>
     <li>ItemTwo</li>
     <li>ItemThree</li>
@@ -52,14 +55,15 @@
 </ul>
 
 <h3> unordered inline lsit</h3>
+ 
 <ul>
-    <li>Inline Item One</li>
-    <li>Inline Item Two</li>
-    <li>Inline Item Three</li>
+    <li class="list-item-inline">Inline Item One</li>
+    <li class="list-item-inline">Inline Item Two</li>
+    <li class="list-item-inline">Inline Item Three</li>
 </ul>
 <h3>reverse ordered list</h3>
 
-<ol>
+<ol reversed>
     <li>Pizza</li>
     <li>Burger</li>
     <li>Pasta</li>
@@ -68,17 +72,18 @@
 <hr>
 
 <h2>@nav</h2>
-<nav>
-    <div>iAmBatman</div>
-    <ul>
-        <li>
-            <a href="/">home</a>
+<nav class="navigation container">
+    <div class="nav-brand">iAmBatman</div>
+    <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+            <a class="link link-active" href="/">home</a>
+
         </li>
-        <li>
-            <a href="/">products</a>
+        <li class="list-item-inline">
+            <a class="link" href="/">products</a>
         </li>
-        <li>
-            <a href="/">about us</a>
+        <li class="list-item-inline">
+            <a class="link" href="/">about us</a>
         </li>
     </ul>
 </nav>
@@ -86,9 +91,9 @@
 <hr>
 <h2>@header</h2>
 
-<header>
-    <img src="image/hero.svg" />
-    <h1>Heading inside header</h1>
+<header class ="hero">
+    <img class="hero-img" src="image/hero.svg" />
+    <h1 class="hero-heading">Manoj Kaliaperumal the <span class="heading-inverted">web developer</span> </h1>
 </header>
 <hr>
 
@@ -111,7 +116,7 @@
 <footer>
     <div>Some small heading inside footer</div>
     <ul>
-        <li>footerOne</li>
+        <li> </li>footerOne</li>
         <li>footerTwo</li>
         <li>footerThree</li>
     </ul>
