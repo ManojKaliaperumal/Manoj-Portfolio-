@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #34D399;
+    --primary-color: #60A5FA;
     --dark-grey: #6B7280;
     --off-white: #F3F4F6;
 
@@ -42,6 +42,7 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+
 }
 
 .link-secondary {
@@ -148,5 +149,16 @@ hr {
 } 
 
 
+.ow .link-primary {
+
+    background-color: #EF4444;
+}
+
+.ow .link-secondary {
+
+    
+    color: #EF4444;
+    border-color: #EF4444;
+}
 
 
