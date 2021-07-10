@@ -36,13 +36,13 @@ hr {
     padding: 0.5rem 1rem;
     /* margin-top: 1rem;
     margin-bottom: 1rem; */
-}
+} 
 
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-
+    
 }
 
 .link-secondary {
@@ -114,10 +114,9 @@ hr {
 .section {
     padding: 2rem;
 }
-
 .section h1 {
     text-align: center;
-
+    
 
 }
 
@@ -147,17 +146,8 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 
-}
+} 
 
 
-/* .ow .link-primary {
-
-    background-color: #EF4444;
-}
-
-.ow .link-secondary {
 
 
-    color: #EF4444;
-    border-color: #EF4444;
-} */
