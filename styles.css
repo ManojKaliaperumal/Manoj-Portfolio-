@@ -174,4 +174,20 @@ hr {
 }
 
 
+.hero .hero-heading .heading-invert {
+    color: white;
+}
+
+
+#h1-blogs{
+    color: #4B5563;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#h2-blogs{
+    text-decoration: none;
+    color: #111827;
+    font-weight: bold;
+}
 
