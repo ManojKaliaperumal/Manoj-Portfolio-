@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
     <title>Blogs | manojkaliaperumal</title>
 
 </head>
+
 <body>
     <nav class="navigation container">
         <div class="nav-brand">Full Stack Developer </div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
                 <a class="link " href="/">Home</a>
-    
+
             </li>
             <li class="list-item-inline">
                 <a class="link" href="/projects.html">Projects</a>
@@ -25,52 +27,50 @@
         </ul>
     </nav>
     <header class="hero">
-        <h1 class="hero-heading">React <span class="heading-inverted"> Hooks</span></h1>
+        <h1 class="hero-heading"><span class="heading-inverted"> CamelCase</span> in JavaScript</h1>
     </header>
     <ul class="list-non-bullet">
         <li>
             <div class="container container-center">
                 <h1 id="h1-blogs">Introduction</h1>
-                <p>Previously, React features such as state and lifecycle functions are available only for class-based
-                    components. Function-based components are referred to as dumb, skinny, or just presentational
-                    components because they can’t have access to state and lifecycle functions.</p>
-                <p>But since the release of React Hooks, function-based components have been elevated into first-class
-                    citizens of React. It has enabled function components to compose, reuse, and share React code in new
-                    ways.</p>
-                <p>In this post, I will share <strong>5 tips </strong> about React Hooks that will be useful to keep as a guideline as you
-                    implement hooks into your components.</p>
+                <p>CamelCase is a naming convention in which a name is formed of multiple words that are joined together
+                    as a single word with the first letter of each of the multiple words capitalized so that each word
+                    that makes up the name can easily be read. </p>
+                <p>he name derives from the hump or humps that seem to appear in any CamelCase name. In UpperCamelCase,
+                    the first letter of the new word is upper case, allowing it to be easily distinguished from a
+                    lowerCamelCase name, in which the first letter of the first name is lower case. </p>
+                <p>The advantage of CamelCase is that in any computer system where the letters in a name have to be
+                    contiguous (no spaces), a more meaningful name can be created using a descriptive sequence of words
+                    without violating the naming limitation.</p>
             </div>
         </li>
         <li>
             <div class="container container-center">
-                <h1 id="h1-blogs">1. Follow the rules of Hooks</h1>
-                <h2 id="h2-blogs">Only call Hooks at the top level</h2>
-                <p>Don’t call hooks inside loops, conditions, and nested functions. When you want to use some
-                    hooks conditionally, write the condition inside those hooks.</p>
-                <p>This rule will ensure that Hooks are called in the same order each time a component renders. That’s
-                    what allows React to correctly preserve the state of Hooks between multiple useState and useEffect
-                    calls.</p>
+                <h1 id="h1-blogs">Why is JavaScript in CamelCase? </h1>
 
-                <h2 id="h2-blogs">Only call Hooks from function components</h2>
-                <p>Don’t call hooks from regular JavaScript functions. Call hooks only from function components or
-                    custom hooks.</p>
-                <p>By following this rule, you make sure that all stateful logic in a component is clearly visible from
-                    the source code.</p>
+                <p>CamelCase is a naming convention in which the first letter of each word in a compound word is
+                    capitalized, except for the first word. Software developers often use camelCase when writing source
+                    code.</p>
+                <p>CamelCase is useful in programming since element names cannot contain spaces. The camelCase naming
+                    convention makes compound names more readable. For example, myOneMethod is easier to read than
+                    myonemethod.</p>
             </div>
         </li>
         <li>
             <div class="container container-center">
-                <h1 id="h1-blogs">2. Use the ESLint plugin for React hooks</h1>
-                <p>React team has also created an ESLint plugin named eslint-plugin-react-hooks to help developers write
-                    React Hooks the right way in their projects. This plugin will help you to catch and fix hooks errors
-                    before you even try to run your application.</p>
-                <p>It has 2 simple rules:</p>
-                <ul>
-                    <li>The first rule simply enforces your code to conform to the rules of hooks that I’ve explained in
-                        the first tip.</li>
-                    <li>The second rule, exhaustive-deps is used to enforce the useEffect’s rule: Every value referenced
-                        inside the effect function should also appear in the dependencies array.</li>
-                </ul>
+                <h1 id="h1-blogs">CamelCase vs PascalCase</h1>
+                <p>camelCase is similar to PascalCase, which capitalizes the first letters of all words in a compound
+                    word, including the first word.</p>
+                <p>For example, myFunction() in PascalCase would be MyFunction(). Programmers may choose to use either
+                    font case when writing source code, since it does not affect the syntax. While each developer can
+                    choose his or her preferred style, some programming languages have standard naming conventions.</p>
+
+                <p>PascalCase is sometimes called <strong>"UpperCamelCase,"</strong> while standard camelCase may be
+                    specified as
+                    <strong>"lowerCamelCase."</strong> In recent years, developers have moved away from these terms and
+                    use PascalCase
+                    and camelCase instead.</p>
+
             </div>
         </li>
         <li>
@@ -91,36 +91,30 @@
         </li>
         <li>
             <div class="container container-center">
-                <h1 id="h1-blogs">4. Use custom hooks for sharing application logic</h1>
-                <p>As you build your application, you will notice that some of your application logic will be used again
-                    and again across many components.</p>
-                <p>You can use tools like Bit (Github) to publish your hooks to a single curated collection. This way
-                    you can install and reuse them across your applications. It doesn't require you to create a whole
-                    new “hooks library” project — you can gradually “push” new hooks, from any project, to your shared
-                    collection.</p>
-                <p>The only caveat for this approach is that you can’t use Hooks inside class components. So if you
-                    still have legacy class components in your project, you either need to convert those components into
-                    functions or use other reusable logic patterns (with HOC or Render Props)</p>
+                <h1 id="h1-blogs">Camel case improves accessibility</h1>
+                <p>Camel case is an important accessibility requirement.
+
+                    Screen readers cannot identify the individual words in a hashtag without camel case. This means the
+                    content will be inaccessible to users of screen readers.</p>
+                <p>This could be a significant proportion of your audience. Lots of people use screen readers,
+                    including:</p>
+
+                <p>– Blind people</p>
+                <p>– Dyslexic people</p>
+                <p>– People who are partially sighted</p>
+                <p>– People who wish to lighten their reading load </p>
+                <p>– People who like the experience of using a screen reader</p>
+                <p>Camel case improves understanding and accessibility for everyone.</p>
+
             </div>
         </li>
         <li>
-            <div class="container container-center">
-                <h1 id="h1-blogs">5. Avoid prop drilling with useContext</h1>
-                <p>Prop drilling is a common problem in React application where you pass data down from one parent
-                    component through the component layers until it reaches the designated child component, while other
-                    nested components don’t actually need them</p>
-                <p>React Context is a feature that provides a way to pass data down through the component tree without
-                    needing to pass props manually between components. The value of React Context defined in the parent
-                    component can be accessed by its descendants through the useContext hook.</p>
-            </div>
-        </li>
-        </ol>
-        </div>
-        </li>
-        <li>
+
             <div class="container container-center">
                 <h1 id="h1-blogs">Conclusion</h1>
-                <p>React Hooks is a great addition to the React library because it allows you to compose, reuse, and share React code in a way that can’t be done without it. As Hooks change the way developers write React components, a new set of best practices for writing React Hooks are needed to make development and collaboration easier across many teams.</p>
+                <p>Camel case is an important accessibility requirement. Screen readers cannot identify the individual
+                    words in a hashtag without camel case. This means the content will be inaccessible to users of
+                    screen readers. ... Camel case will make your hashtags accessible to all of these people</p>
             </div>
         </li>
 
@@ -151,4 +145,3 @@
 </body>
 
 </html>
-
